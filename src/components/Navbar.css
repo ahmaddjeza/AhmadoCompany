@@ -1,0 +1,30 @@
+
+.navbar {
+  background-color: #282c34;
+  overflow: hidden;
+  width: 30%;          
+    margin: 0 auto;       
+    transform: translateX(70%);
+    font-family: poppins,sans-serif;
+    z-index: 1000; 
+    position: sticky;
+    top: 0;   
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #282c34; /* Eller vilken färg du vill ha */
+  color: #0ef; /* Textfärg för aktiv länk */
+}
