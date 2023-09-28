@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,400;1,700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,900;1,400;1,700&family=Rubik:wght@400;600;700;800&family=Titillium+Web:wght@300;400;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 .Projects-content{
-    height: 100vh;
-        background-color: #f9f9;
+    height: 80vh;
+        background-color: #1f242D;
     }

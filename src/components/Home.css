@@ -1,17 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,400;1,700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,900;1,400;1,700&family=Rubik:wght@400;600;700;800&family=Titillium+Web:wght@300;400;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
 .home-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: Poppins, sans-serif;
+  margin-top: 90px;  /* motsvarande .header höjd */
 }
 
 img {
   padding: 5px;
   width: 350px;
   display: flex;
+  /* Place the img to the left */
+  float: left;
+  /* Add a right margin to the img */
+  margin-right: 150px;
   border-radius: 50%;
-  background-color: #282c34;
+  background-color: #1f242D;
   
   }
   html {

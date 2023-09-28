@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 
+
 function Navbar() {
     const [activeLink, setActiveLink] = useState('home'); // Standardlänken sätts till 'home'
 
     return (
+        <div className='header'>
         <nav className="navbar">
             <a 
                 href="/" 
@@ -35,6 +37,7 @@ function Navbar() {
                 Kontakt
             </a>
         </nav>
+        </div>
     );
 }
 
